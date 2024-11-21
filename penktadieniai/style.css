@@ -1,0 +1,30 @@
+.container {
+    width: 100%;
+}
+
+.column {
+    width: 30%;
+    float: left;
+    margin: 1.5%;
+}
+
+.image {
+    width: 100%
+}
+
+.card {
+    border: 3px solid black;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+div {
+    background-color: brown;
+}
+
+.nuoroda {
+    text-decoration: none;
+    color: black;
+
+}
+

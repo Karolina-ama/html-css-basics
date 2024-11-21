@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  color: rgba(125, 121, 135, 1);
+}
+
+p {
+  color: rgba(125, 121, 135, 1);
+}
+
+.flexCenter {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px 30px;
+  max-width: 100%;
+
+}
+
+.navigationContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.navigationContainer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.navigationContainer ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.navigationContainer ul li a {
+  text-decoration: none;
+}
+
+.navigationContainer ul li a:hover {
+  color: rgba(31, 21, 52, 1);
+  font-weight: 700;
+}
+
+.sectionOneContainer {
+  display: flex;
+justify-content: center;
+}
+
+.elment {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.sectionOneTextIllustration {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 50px;
+  /* max-width: 1200px;  */
+}
+
+.sectionOneText {
+  width: 445px;
+  height: 338px;
+  margin-top: 100px;
+  margin-left: 110px;
+  gap: 0px;
+  border-radius: 55px 0px 0px 0px;
+  opacity: 0px;
+  /* background-color: red; */
+}
+
+.sectionOneText h1 {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.sectionOneText p {
+  font-size: 21px;
+  font-weight: 300;
+  text-align: left;
+  color: rgba(125, 121, 135, 1);
+  padding: 30px 0;
+}
+
+.sectionOneText button {
+  background-color: rgba(69, 143, 246, 1);
+  border-radius: 200px;
+  color: white;
+  padding: 20px 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.sectionOneText button:hover {
+  background-color: white;
+  color: rgba(69, 143, 246, 1);
+}
+
+.illustration img {
+  display: flex;
+  height: auto;
+  width: auto;
+  padding-left: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.ourServices {
+  padding-top: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+
+
+
+.text h2 {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  color: black;
+}
+
+.rectangle {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  width: 54px;
+  height: 2px;
+  border-radius: 5px 0px 0px 0px;
+  opacity: 0px;
+  background-color: black;
+  margin-top: 10px;
+  margin-left: 47%;
+}
+
+.text p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  
+}
+
+.servicesContainer {
+  display: flex;  
+  flex-wrap: wrap;
+  justify-content:space-between;
+  padding-top: 40px;
+  padding-left:150px;
+  max-width: 1500px;
+
+}
+
+.servicesBox {
+  flex: 1 1 30%;
+}
+
+.button2 {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  /* nesilygiuoja kodel ?  */
+  max-width: 100%;
+  border: solid 2px rgba(69, 143, 246, 1);
+  background-color: white;
+  border-radius: 300px;
+  padding: 10px 15px; 
+  color: black;
+}
+
+
+
+
+
+
+
+
+.sectionTwoContainer{
+display: flex;
+justify-content: center;
+gap:5%;
+padding-top: 200px;
+
+}
+
+.leadingHealthcare {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 20%;
+  flex-direction: column;
+  color: black;
+  gap: 30px;
+}
+
+.button3 {
+  display: flex;
+justify-content: flex-start;
+  /* nesilygiuoja kodel ?  */
+  max-width: 100%;
+  border: solid 2px rgba(69, 143, 246, 1);
+  background-color: white;
+  border-radius: 300px;
+  padding: 10px 15px; 
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+/* SECTION 3 CONTAINER */
+
+.sectionThreeContainer {
+  display: flex;  
+  flex-direction: row;
+  
+}
+
+.downloadApps {
+  width: 30%;
+}
+
+.downloadAppsIllustration {
+ width: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

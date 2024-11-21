@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+  
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.bmiCalcContainer {
+  background-color: #005490;
+  width: 500px;
+  height: 300px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bmiCalcContainer h1 {
+  color: rgb(164, 136, 11);
+  background-color: white;
+  border-radius: 5px;
+  /* opacity: 60%; */
+  font-size: 2rem;
+  padding: 10px;
+}
+
+hr {
+  width: 90%;
+}
+
+.bmiCalcContainer span {
+  color: rgb(34, 17, 5);
+  background-color: rgb(164, 136, 11);
+  border-radius: 5px;
+  padding: 10px;
+
+}
+
+.calculate {
+  padding: 15px 30px;
+  background-color: orange;
+  border-radius: 10px;
+}
+
+.resetBtn {
+  background-color: #d42a7f;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.resetBtn:hover {
+  background-color: #c21a6f;
+}
+
+.bmiCalcContainer {
+    background-image: url(/counterapp/counterAppKomandomis/R.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+      
+}
+
+h1 {
+    margin-left: 80px;
+}
+

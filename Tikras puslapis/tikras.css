@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.main{
+ position: relative
+}
+
+.container {
+position: absolute;
+  width: 100%;
+  padding: 20px;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.naujas {
+    position: absolute;
+    width: 200px;
+    height: 100vh;
+    background-color: yellow;
+}

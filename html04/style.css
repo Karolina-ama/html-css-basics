@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+}
+
+.title-01 {
+
+    color: skyblue;
+    font-size: 84px;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: "Jacquarda Bastarda 9", serif;
+}
+
+/* 
+font weight yra 100 ploniausias , 400 normalus ,700 yra tas pats kas bold */
+
+.title-02 {
+    color: crimson;
+
+}
+
+.box-1 {
+    border: 8px solid skyblue;
+    height: 100px;
+    width: 300px;
+    display: inline-block;
+    box-sizing: border-box;
+ /* margin: 10px 20px 10px 50px; */
+ /* margin: 30px 20px; */
+ margin:50px;
+}
+.center-container {
+    width: 100%;
+ 
+}
+
+
+.container{
+    font-size: 0;
+    width: 80%;
+    margin: 0;
+}
+
+
+
+.box-2 {
+    border: 8px solid crimson;
+    height: 100px;
+    width: 33.3333%;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 30%;
+}
+/* Deliojimo principas! */
+/* sukuriam konteineri jame sudedam itemus i divus */

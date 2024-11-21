@@ -1,0 +1,78 @@
+:root {
+    --blue: #1e90ff;
+    --container-width: 1200px;
+    --trans: all 0.4s;
+    --rabit-color: #d6cc0c;
+}
+
+body {
+    margin: 0;
+    font-family: "Jacquarda Bastarda 9", serif;
+}
+
+header{
+    background-color: var(--blue);
+    padding: 30px 20px;
+    /* borderis apibraukia kazkoki konteneri, marginas atitolina dvi dezutes, paddingas yra atstumas dezutes viduje nuo dezutes krasto */
+
+}
+
+header nav {
+    width: 100%;
+    max-width: var(--container-width);
+    margin: 0 auto;
+    position: relative;
+}
+
+header nav a {
+color: white;
+text-decoration: none;
+/* nebelieka apatinio bruksnio */
+margin-right: 20px;
+font-size: 30px;
+transition: var(--trans);
+/* transicija per kiek laiko is po leto spalva pasikeicia, perejimas gaunasi ne suoliais o malonesnis akiai */
+}
+
+header nav svg {
+    width: 100px;
+    fill: white;
+    position: absolute;
+    top: -23px;
+    left: -100px;
+
+}
+
+.hero-text {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+ 
+.hero-text h1 {
+    font-size: 60px;
+    color: var(--blue);
+    margin: 0 auto ;
+    padding: 20px;
+}
+ 
+.hero-text p {
+    font-weight: 200;
+    font-size: 20px;
+    color: white;
+}
+
+/* fill naudojamas kad nudazytu logo , nes tai nera backgroud 
+stroke naudoti jeigu reiketu nudazyti kazkokias linijas
+filas gali kartais nesuveikti jeigu svg turi kazkokia komanda, tada ja reikia operuoti "istrinti"*/
+
+
+
+
+/* efektas kad uzvedus pelyte spalva pasikeicia  */
+header nav a:hover {
+    color: var(--rabit-color);
+}
+
+/* paveiksliukai yra rastriniai(sudaryti is daug skirtingu spalvu) ir vektoriniai (sudarytis is formu) */

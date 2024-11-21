@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+   display: flex; 
+   /* (galiu stumdyti visas dalis) */
+   flex-direction: column;
+   /* naujus divus deda i stulpeli ne i eile */
+    gap: 20px; 
+
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+body{
+    font-family: "Mulish", sans-serif;
+}
+
+.logo img {
+ /* display: flex; */
+ margin-left: 170px;
+ margin-top: 30px;
+
+}
+
+.topNav {
+    margin-left: 700px;
+    margin-top: 30px;
+}
+
+.topNav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-top: -80px;
+    margin-left: 280px;
+
+}
+
+.topNav li {
+    display: flex;
+
+}
+
+.topNav a {
+    text-decoration: none;
+    color: rgba(31, 21, 52, 1);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.topNav a:hover {
+    color: rgba(31, 21, 52, 1);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.element img{
+display: flex;
+justify-content: flex-start;
+margin-top: 10px;
+}
+
+.illustration {
+    display: flex;
+    margin-left: 860px;
+}
+
+.illustration img {
+    max-width: 100%;
+}
+
+.headerText {
+    margin-left: -1370px;
+
+}
+
+.headerText p{
+font-size: 21px;
+font-weight: 300;
+line-height: 32px;
+text-align: left;
+
+}
